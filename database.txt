@@ -1,0 +1,14 @@
+create database smarthealth;
+use smarthealth;
+
+create table patientdata(patient_id varchar(40),
+heart varchar(50),
+temperature varchar(50),
+systolic varchar(50),
+Diastolic varchar(50),
+ai_predict varchar(40),
+recorded_date varchar(40));
+
+
+
+
